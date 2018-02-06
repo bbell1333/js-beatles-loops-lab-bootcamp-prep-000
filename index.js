@@ -19,6 +19,6 @@ function iLoveTheBeatles(n){
   var array =[]
   do{
     array.unshift("I love the Beatles!");
-  } while(array.length<n && n >14);
+  } while(array.length<n && n >15);
   return array;
 }
