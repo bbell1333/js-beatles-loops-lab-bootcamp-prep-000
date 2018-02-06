@@ -20,4 +20,5 @@ function iLoveTheBeatles(n){
   do{
     array.unshift("I love the Beatles!");
   } while(array.length<n+1 && n >14);
+  return array;
 }
